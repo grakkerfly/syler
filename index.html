@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dce5ec">
+  <meta name="description" content="Syler, The Creator.">
+  <title>Syler, The Creator</title>
+  <link rel="icon" href="assets/pfp.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+  <canvas id="coins" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+  <button class="motion" type="button" aria-label="Pausar moedas" aria-pressed="false">pause motion</button>
+  <main aria-label="Syler, The Creator">
+    <h1>there is no website,<br><em>only bitcoin</em></h1>
+    <button class="contract" type="button" aria-label="Copiar endereço do contrato" title="Copiar CA">
+      <span class="label">CA</span>
+      <span class="address">ERag3zFQTfSAz7YHPrRonPfV96Cw4x5tQ6aNDXwB5GL7</span>
+      <svg class="copy" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="5" y="5" width="9" height="9" rx="1"/><path d="M10 3V2H2v8h1"/></svg>
+    </button>
+    <figure><img src="assets/pfp.png" width="1254" height="1254" alt="This is Syler, The Creator — retrato com chapéu azul e pin de Bitcoin" fetchpriority="high"></figure>
+    <p class="status" role="status" aria-live="polite"></p>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

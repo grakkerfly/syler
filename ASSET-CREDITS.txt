@@ -1,0 +1,5 @@
+Bitcoin model: Valger
+https://sketchfab.com/3d-models/bitcoin-b7f0615ea6664a2298a0d9e6d9b0f567
+Source metadata license: CC-BY-NC-ND-4.0
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+Three.js: MIT, see vendor/THREE-LICENSE.txt
